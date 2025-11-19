@@ -1,0 +1,52 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+*.tsbuildinfo
+
+# Runtime data
+.pnpm-store/
+.nyc_output/
+coverage/
+lib-cov/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.test
+.env.local
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Tests
+test_*
+tmp/
+temp/
+
+# TypeScript
+src/**/*.ts.map
+src/**/*.js
+src/**/*.js.map
+
+# Local config
+config.local.js

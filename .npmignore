@@ -1,0 +1,10 @@
+node_modules
+dist
+*.log
+test_*
+metatft_*
+*.bat
+*.sh
+src
+*.ts
+*.ts.map
